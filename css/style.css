@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.container{
+    width: 400px;
+    height: 200px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.input {
+width: 97%;
+height: 30px;
+display: block;
+margin-top: 25px;
+border-radius: 5px;
+text-align: center;
+}
+
+h1{
+    text-align: center;
+    opacity: 70%;
+}
+
+.enter_password {
+    color: red;
+}
+
+.error_password {
+    color: red;
+}
+
+.succsess_password {
+    color: rgb(23, 197, 23);
+}
+
+.perfect_password {
+    color: rgb(199, 28, 182);
+}
